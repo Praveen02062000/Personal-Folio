@@ -1,0 +1,82 @@
+ animation: project 1s linear 1;
+
+
+ @keyframes project {
+    0%{
+        position: relative;
+        left: 0rem;
+    }
+    50%{
+        position: relative;
+        left: 17rem;
+
+    }
+    100%{
+        position: relative;
+        left:34rem;
+    }
+
+
+
+}
+
+//////////////////////////////////////////////////////////////////////////
+#pro-con .fuck{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 6rem;
+    left: 3.5rem;
+    display:none;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 10px;
+
+}
+#pro-con h2{
+    position: relative;
+    top: 9rem;
+    right: 4rem;
+    display: none;
+
+}
+
+#pro-con:hover h2{
+    animation: h2 0.5s linear 1;
+    display: block;
+    color:purple;
+
+}
+@keyframes h2 {
+    0%{
+        position: relative;
+        top: 10rem;
+    }
+
+
+}
+///////////////////////////////////////////////////////////////////////////////////
+
+
+.project-con-main #pro-con:hover .fuck{
+    display: block;
+    animation: btnn 0.5s linear 1;
+    opacity:1;
+
+
+}
+
+
+
+@keyframes btnn{
+    0%{
+        position: relative;
+        top: 0rem;
+    }
+    100%{
+        position: relative;
+        top: 6rem;
+    }
+
+}

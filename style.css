@@ -1,0 +1,3867 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Mochiy+Pop+One&family=Orbitron:wght@700&family=Rowdies&family=Teko:wght@400;500&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Mochiy+Pop+One&family=Orbitron:wght@700&family=Permanent+Marker&family=Rowdies&family=Teko:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+/* =========================font=================================================== */
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(3, 3, 3);
+    margin: 0;
+    overflow-x: hidden;
+    
+
+}
+
+/* ==================== MOBILE HIDE  ==================*/
+
+/* .name-logo{
+    color: white;
+    font-family: teko;
+    font-size:50px;
+    position:fixed;
+    left: 1rem;
+    z-index: 1;
+
+} */
+.logo{
+    display:none;
+}
+
+/* ...............navbar................. */
+.navbar img{
+    display: none;
+}
+.navbar {
+    position: relative;
+    left: 75rem;
+    bottom:0rem;
+
+}
+.navbar #top{
+    color:red;
+
+}
+
+.navbar a {
+    display:block;
+    margin-right: 50px;
+    list-style: none;
+    text-decoration: none;
+    float:left;
+}
+
+
+.navbar a li{
+    color: white;
+    font-size:2rem;
+    font-weight:boldr;
+    font-family:Teko;
+    text-decoration: none;
+
+
+}
+.navbar a li:hover{
+    /* text-decoration: underline; */
+    border-bottom: 3px solid rgb(255, 255, 255);
+    color: red;
+
+}
+/* =============home page name design========================== */
+.name-title{
+    background-color: rgb(204, 0, 0,0);
+    width: 30rem;
+    height: 10rem;
+    position:absolute;
+    top: 10rem;
+    left: 40rem;
+}
+.name-title h3:nth-child(1){
+    color: rgb(0, 100, 82);
+    font-size:1.5rem;
+    font-family:'Courier New', Courier, monospace;
+    position: relative;
+    top:-10px;
+
+}
+
+
+.name-title h1:nth-child(2){
+    color: white;
+    font-size:5rem;
+    font-family: Teko;
+    position: relative;
+    bottom:3rem;
+
+}
+.name-title h1:nth-child(3){
+    color: rgb(90, 5, 98);
+    position: relative;
+    bottom:10rem;
+    left: 5rem;
+    font-size: 3rem;
+    font-family:'Courier New', Courier, monospace;
+
+}
+.name-title h1:nth-child(3):hover{
+    text-decoration: underline;
+    color: rgb(30, 248, 222);
+}
+/* ============== main-text ======================== */
+.main-details{
+    background-color:transparent;
+    /* display: none; */
+    width: 700px;
+    position:absolute;
+    top: 21rem;
+    left: 40rem;
+    height: 200px;
+}
+.main-details h1{
+    float: left;
+    position: relative;
+    top: -9rem;
+    left: 10rem;
+
+
+}
+.main-details h3{
+    font-size: 50px;
+    position: relative;
+    top: -2rem;
+}
+.main-details p{
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    text-align: center;
+    top: 4rem;
+    left: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+/* =================== button for download cv ================ */
+
+.btn .download-cv{
+    position:absolute;
+    top:12rem;
+    left:18rem;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    /* border-radius: 10px; */
+    font-weight: bolder;
+}
+
+.download-cv:hover{
+    /* background-image: linear-gradient(to right,purple,rgb(140, 140, 253),purple); */
+    box-shadow:rgb(255, 255, 255) 2px 2px 20px;
+    /* color: black; */
+}
+.download-cv:active{
+    width: 147px;
+    height: 47px;
+    box-shadow: none;
+
+}
+
+
+
+/* ============circle in home site================== */
+
+.circle{
+    background-image: linear-gradient(to top ,rgb(0, 121, 177,0.2),rgb(209, 18, 223,0.5) );
+    width: 20rem;
+    height:20rem;
+    border-radius: 50%;
+    position: relative;
+    left:10rem;
+    opacity: 0.4;
+    top:5rem;
+    animation: cir 4s linear infinite;
+    transition: 2s;
+}
+
+.circle1{
+    background-image: linear-gradient(to top ,rgb(0, 121, 177,0.2),rgb(209, 18, 223,0.5) );
+    width: 20rem;
+    height:20rem;
+    border-radius: 50%;
+    position: relative;
+    left:10rem;
+    transform:rotate(90deg);
+    opacity: 1;
+    top:-15rem;
+    animation: cir 4s linear infinite;
+    transition: 2s;
+}
+/* ======================= mini circle Animation ====================== */
+.circle2{
+    background-image: linear-gradient(to top ,rgb(0, 121, 177,0.2),rgb(209, 18, 223,0.5) );
+    width: 7rem;
+    height:7rem;
+    border-radius: 50%;
+    position: relative;
+    left:25rem;
+    opacity: 0.4;
+    top:-10rem;
+    animation: cir 4s linear infinite;
+    transition: 2s;
+}
+
+
+
+.circle3{
+    background-image: linear-gradient(to top ,rgb(0, 121, 177,0.2),rgb(209, 18, 223,0.5) );
+    width: 7rem;
+    height:7rem;
+    border-radius: 50%;
+    position: relative;
+    left:25rem;
+    transform:rotate(90deg);
+    opacity: 1;
+    top:-17rem;
+    animation: cir 4s linear infinite;
+    transition: 2s;
+}
+/* =================== Animation keyframes side ======================== */
+@keyframes cir {
+    0%{
+        opacity: 0.5;
+        transform: rotate(180deg);
+
+    }
+    25%{
+        opacity: 0.7;
+        border-radius:10px;
+        transition: 1s;
+        /* transform: rotate(180deg); */
+    }
+    50%{
+        opacity: 0.8;
+        transition: 2s;
+        /* transform: rotate(-160deg); */
+
+
+    }
+    75%{
+        opacity: 0.9;
+        border-radius: 10px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* ======================= animation for person ========== */
+@keyframes person {
+    0%{
+       transform:scale(1.1,1.1);
+    }
+
+
+}
+
+/* =================== person img in home intro=========== */
+.person_img{
+    background-color: rgb(226, 115, 115);
+    width: 18.5rem;
+    height: 20rem;
+    position: relative;
+    bottom: 25rem;
+    right:9rem;
+    float: right;
+}
+.person_img img{
+    width: 300px;
+    animation:person 2s linear 1;
+    position: relative;
+
+
+
+}
+/* =============typing effect =========== */
+
+.type::after{
+    /* animation:blinker 1s linear infinite; */
+    content: "|";
+    position:relative;
+    left: 1rem;
+    color: rgb(248, 248, 248);
+    animation: blinker 0.5s linear infinite;
+
+
+}
+@keyframes blinker {
+    0%{
+        opacity:0.1;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+/* ============= SKILLS SECTION======================= */
+/* ====================================================== */
+
+.skill{
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    top: 8rem;
+    height:70rem;
+    transition: 7s;
+    scroll-behavior: smooth;
+}
+
+.skill .title-sec h1{
+    font-size: 60px;
+    text-align: center;
+    color: rgb(118, 118, 118);
+    font-family: Teko;
+    position: relative;
+    left:10rem;
+
+}
+.title{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    row-gap:3rem;
+}
+
+.title .title1,.title2,.title3,.title4{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 35rem;
+    height: 43rem;
+    position: relative;
+    left: 2rem;
+    margin-left: 40px;
+    border-radius: 20px;
+    border: 0.2px solid white;
+
+}
+.title1{
+    transition: 1s;
+}
+.title1:hover{
+    background-color: white;
+    position: relative;
+    bottom: 1rem;
+    transition:1s;
+    box-shadow: purple 2px 2px 30px 10px;
+}
+
+.title2:hover{
+    background-color: white;
+    position: relative;
+    bottom: 1rem;
+    transition:1s;
+    box-shadow: purple 2px 2px 30px 10px;
+
+}
+.title1:hover  .title1-h1{
+    color: black;
+}
+.title2:hover h1{
+    color: black;
+}
+
+.title div:nth-child(1) h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family:teko;
+
+}
+/* ====================== tools animations =========== */
+.tools{
+    display: grid;
+    grid-template-rows:auto auto auto auto ;
+
+}
+.tools .html-load{
+    width: 70%;
+    background-color: rgb(248, 132, 0);
+    height:3rem;
+    margin: 10px;
+    animation: load 3s linear 1;
+    position: relative;
+    left: 5rem;
+    top: 0rem;
+    border-radius: 0px 20px 20px 0px;
+}
+.tools .html{
+    width: 100px;
+    position: relative;
+    top: 4rem;
+
+
+}
+.tools .html-load h2{
+    text-align:center;
+    color: white;
+    position:relative;
+    right:0rem;
+    font-size:20px;
+    opacity: 1;
+}
+@keyframes load {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 70%;
+    }
+
+}
+
+.tools .css-load{
+    background-color: rgb(12, 75, 200);
+    width:70%;
+    height:3rem;
+    margin: 10px;
+    animation: load 4s linear 1;
+    position: relative;
+    left: 5rem;
+    top: -3rem;
+    border-radius: 0px 20px 20px 0px;
+}
+.tools .css-load h2{
+    text-align:center;
+    color: white;
+    position:relative;
+    right:0rem;
+    font-size:20px;
+    opacity: 1;
+}
+.tools .css{
+    width: 70px;
+    position: relative;
+    top: 1rem;
+    left: 1rem;
+
+}
+.tools .js-load{
+    background-color: rgb(255, 255, 104);
+    width:60%;
+    height:3rem;
+    margin: 10px;
+    animation: js-load 5s linear 1;
+    position: relative;
+    left: 5rem;
+    top: -5rem;
+    border-radius: 0px 20px 20px 0px;
+
+}
+
+.tools .js{
+    width: 50px;
+    position: relative;
+    top: -1rem;
+    left:1.5rem;
+}
+.tools .js-load h2{
+    text-align:center;
+    color: rgb(50, 50, 50);
+    position:relative;
+    right:0rem;
+    font-size:20px;
+    opacity: 1;
+}
+@keyframes js-load {
+    0%{
+        width: 0;
+
+    }
+    100%{
+        width:60%;
+    }
+
+}
+
+.tools .react{
+    width: 50px;
+    position: relative;
+    top: -3.5rem;
+    left:1.5rem;
+
+}
+
+
+.tools .react-load{
+    background-color: rgb(54, 242, 255);
+    width:50%;
+    height:3rem;
+    margin: 10px;
+    animation: react-load 7s linear 1;
+    position: relative;
+    left: 5rem;
+    top: -7rem;
+    border-radius: 0px 20px 20px 0px;
+
+}
+.tools .react-load h2{
+    text-align:center;
+    color: rgb(50, 50, 50);
+    position:relative;
+    right:0rem;
+    font-size:20px;
+    opacity: 1;
+
+}
+@keyframes react-load {
+    0%{
+        width: 0;
+    }
+
+
+
+}
+
+/* ====== FOR PROGRAMMING SKILLS ============ */
+
+.title2 h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family:teko;
+
+}
+.tool-program .js-pro{
+    width: 50px;
+    position: absolute;
+    top: 12rem;
+    left:4rem;
+
+
+}
+.tool-program .js-pro-load{
+    background-color: yellow;
+    height:3rem;
+    position: relative;
+    left:8rem;
+    top: 4rem;
+    width:23rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 4s linear 1;
+}
+.tool-program .js-pro-load h2{
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+
+.tool-program .python-pro{
+    width: 50px;
+    position: absolute;
+    top: 17rem;
+    left: 4rem;
+}
+
+.tool-program .python-pro-load{
+    background-color: rgb(0, 0, 172);
+    height:3rem;
+    position: relative;
+    left:8rem;
+    top: 6rem;
+    width:23rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 5s linear 1;
+
+}
+.tool-program .python-pro-load h2{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+
+.tool-program .java-pro-load{
+    background-color: rgb(143, 1, 1);
+    height:3rem;
+    position: relative;
+    left:8rem;
+    top: 8rem;
+    width:18rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 7s linear 1;
+
+}
+.tool-program .java-pro{
+    width:120px;
+    position: absolute;
+    top:22.6rem;
+    left:1.8rem;
+}
+.tool-program .java-pro-load h2{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    top: 1rem;
+}
+@keyframes load2 {
+    0%{
+        width: 0rem;
+    }
+
+}
+
+.title3 h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-family:teko;
+
+}
+
+.title3 .figma{
+    width: 90px;
+    position: relative;
+    top:6rem;
+    left: 2rem;
+}
+
+.disign .figma-tool{
+    background-color: rgb(255, 0, 212);
+    height: 3rem;
+    width: 23rem;
+    position: relative;
+    left: 8rem;
+    top:0.22rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 4s linear 1;
+}
+.figma-tool h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+}
+
+.title3 .ps{
+    width:50px;
+    position: relative;
+    left:3rem;
+    top:3rem;
+}
+
+.disign .ps-tool{
+    background-color: rgb(22, 20, 89);
+    height: 3rem;
+    width: 20rem;
+    position: relative;
+    left: 8rem;
+    top:-1.2rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 6s linear 1;
+
+}
+
+.disign .ps-tool h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+}
+
+.title3:hover{
+    background-color: white;
+    position: relative;
+    bottom: 1rem;
+    transition:1s;
+    box-shadow: purple 2px 2px 30px 10px;
+
+}
+.title3 .lr{
+    width: 50px;
+    position: relative;
+    top:1rem;
+    left:3rem;
+}
+.disign .lr-tool{
+    background-color: rgb(60, 177, 255);
+    height: 3rem;
+    width: 23rem;
+    position: relative;
+    left: 8rem;
+    top:-3.5rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 4s linear 1;
+
+}
+
+.lr-tool h2{
+    text-align: center;
+    color: white;
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+
+}
+.title3:hover h1{
+    color: black;
+}
+
+
+/*  ============ OTHER TOOLS ==================== */
+
+.title4 H1{
+    color: white;
+    font-family: teko;
+    text-align: center;
+
+}
+
+.other-skill .node{
+    width: 50px;
+    position: relative;
+    left:2rem;
+    top:4rem;
+}
+.other-skill .node-tool{
+    background-color: greenyellow;
+    height: 3rem;
+    width: 18rem;
+    position: relative;
+    left: 6rem;
+    top:-0.5rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 7s linear 1;
+}
+.node-tool h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+
+}
+
+.title4 .other-skill .cordova{
+    width:50px;
+    position: relative;
+    top: -2rem;
+    left:1.5rem;
+}
+.other-skill .cordova-tool{
+    background-color: rgb(187, 187, 187);
+    height: 3rem;
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+    top:-6rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 9s linear 1;
+
+}
+.other-skill .cordova-tool h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+}
+
+.title4 .volt{
+    width: 50px;
+    position: relative;
+    top:-2.5rem;
+    left:1.5rem;
+}
+
+.other-skill .volt-tool{
+    background-color: rgb(41, 44, 95);
+    height: 3rem;
+    width: 16rem;
+    position: relative;
+    left: 6rem;
+    top:-7rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 9s linear 1;
+
+}
+.title4 .mongodb{
+    width: 90px;
+    position: relative;
+    left: 0.5rem;
+    top: 1rem;
+}
+.other-skill .mongodb-tool{
+    background-color: green;
+    width: 10rem;
+    position: relative;
+    left: 6rem;
+    bottom:4rem;
+    height: 3rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 9s linear 1;
+}
+.mongodb-tool h2{
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top:1rem;
+}
+
+.volt-tool h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+
+}
+
+.title4 .sql{
+    width: 50px;
+    position: relative;
+    left:2rem;
+    bottom: 1rem;
+
+}
+.other-skill .sql-tool{
+    background-color: rgb(33, 105, 214);
+    width: 10rem;
+    position: relative;
+    left: 6rem;
+    bottom:5rem;
+    height: 3rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 9s linear 1;
+
+}
+
+.sql-tool h2{
+    color: white;
+    text-align: center;
+    font-size: 17px;
+    position: relative;
+    top: 1rem;
+}
+.title3 .pixel{
+    width: 50px;
+    position: relative;
+    left:3rem;
+    bottom: 1rem;
+}
+.pixellab{
+    background-image: linear-gradient(to right,rgb(169, 229, 255),rgb(110, 216, 255));
+    width:26rem;
+    position: relative;
+    left: 8rem;
+    bottom:5.5rem;
+    height: 3rem;
+    border-radius: 0px 20px 20px 0px;
+    animation: load2 4s linear 1;
+
+
+}
+.pixellab h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+    font-size: 17px;
+}
+
+.title4:hover{
+    background-color: white;
+    position: relative;
+    bottom: 1rem;
+    transition:1s;
+    box-shadow: purple 2px 2px 30px 10px;
+}
+
+.title4:hover h1{
+    color: black;
+}
+
+
+
+
+/* ======================================= project screenshot and link style ======================== */
+
+
+.projects{
+    background-color:rgb(0, 0, 0);
+    width: 100%;
+    height: 55rem;
+    position:relative;
+    top:45rem;
+
+}
+.project-con{
+    display: flex;
+    background-color: rgb(16, 16, 16);
+    width: 100%;
+    height: 70rem;
+    position: relative;
+    justify-content: center;
+
+
+
+}
+.project-con h1{
+    animation: project 1s linear 1;
+    animation-delay:0s;
+    position: relative;
+    left:45rem;
+    height: 2rem;
+    text-align: center;
+    color: white;
+    font-family: teko;
+    font-size: 50px;
+
+}
+/* .project-con .border{
+    animation: project 3s linear 1;
+    animation-delay:0s;
+
+    background-color: black;
+    width: 20rem;
+    height:.5rem;
+    position: relative;
+    top:4rem;
+    right:-8rem;
+
+} */
+
+
+@keyframes project {
+    0%{
+        position: relative;
+        left: 0rem;
+    }
+    50%{
+        position: relative;
+        left: 17rem;
+
+    }
+    100%{
+        position: relative;
+        left:34rem;
+    }
+
+
+
+}
+
+/* ================ project -con============== */
+
+.project-con-main{
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    /* grid-row: auto auto; */
+    grid-template-rows: auto 1200px;
+    position: relative;
+    top:10rem;
+    right:6rem;
+    background-color:transparent;
+
+
+
+
+
+}
+
+.project-con-main div{
+    background-color: white;
+    width:20rem;
+    height: 20rem;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+
+
+
+
+}
+#pro-con .fuck{
+    width: 120px;
+    height: 50px;
+    position: relative;
+    top: 6rem;
+    left: 3.5rem;
+    display:none;
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 10px;
+
+}
+#pro-con h2{
+    position: relative;
+    top: 9rem;
+    right: 4rem;
+    display: none;
+
+}
+
+#pro-con:hover h2{
+    animation: h2 0.5s linear 1;
+    display: block;
+    color:purple;
+
+}
+@keyframes h2 {
+    0%{
+        position: relative;
+        top: 10rem;
+    }
+
+
+}
+
+
+
+.project-con-main #pro-con:hover .fuck{
+    display: block;
+    animation: btnn 0.5s linear 1;
+    opacity:1;
+
+
+}
+#pro-con:hover .fuck:active{
+    background-color: purple;
+}
+#pro-con:hover{
+    background-color: rgb(5, 82, 63);
+    transition: 0.8s;
+    box-shadow:purple 2px 2px 20px;
+    border-radius: 10px;
+}
+
+
+@keyframes btnn{
+    0%{
+        position: relative;
+        top: 0rem;
+    }
+    100%{
+        position: relative;
+        top: 6rem;
+    }
+
+}
+
+
+
+
+
+/* =========================== bcakground color change =========== */
+
+.pro-main-con{
+    background-color: white;
+    width: 50rem;
+    height: 50rem;
+    position: relative;
+    left: 35rem;
+    bottom:60rem;
+    display:none;
+    border-radius: 30px;
+    animation: popup 0.5s linear 1;
+    z-index: 1;
+
+}
+
+@keyframes popup {
+    0%{
+
+        transform: scale(0,0);
+
+    }
+
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.424);
+    width: 110%;
+    height:950rem;
+    padding: 10px;
+    z-index:0;
+    position: absolute;
+    top: 0;
+    display: none;
+    left: 0rem;
+
+}
+
+
+/* ================= single div for unqiue projects====================== */
+
+
+.project-con-main div:nth-child(2){
+    background-image: url('./res/mobile/projects/collge-main.png');
+    background-size: cover;
+}
+.project-con-main div:nth-child(2):hover{
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+}
+.project-con-main div:nth-child(1){
+    background-image: url('./res/screenshot/watch/pro1-1.png');
+    background-size: cover;
+}
+.project-con-main div:nth-child(1):hover{
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+}
+.project-con-main div:nth-child(3){
+    background-image: url('./res/screenshot/shop/pro3-1.png');
+    background-size: cover;
+}
+.project-con-main div:nth-child(3):hover{
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+}
+.project-con-main div:nth-child(4){
+    background-image: url('./res/screenshot/bill/bill-1.png');
+    background-size: cover;
+}
+.project-con-main div:nth-child(4):hover{
+    background-image:linear-gradient(rgb(0, 0, 0),rgb(0, 0, 0));
+}
+
+
+
+
+
+
+
+
+
+/* ========================= for about con ======================== */
+/*
+about-con ==================== */
+
+.about{
+    background-color: rgb(19, 19, 19,0.5);
+    width: 100%;
+    height:60rem;
+    position: relative;
+    top: 70rem;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-con{
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 70%;
+    height: 50rem;
+    position: relative;
+    top: 5rem;
+    border-radius:30px;
+    transition:1s;
+    /* box-shadow: 2px 2px 20px rgb(103, 252, 255); */
+
+
+}
+.about-con:hover{
+    background-color: black;
+    border: 2px solid white;
+    transition:0.7s;
+    box-shadow: rgb(255, 116, 255) 2px 2px 20px;
+}
+.about-con:hover .about-img{
+    box-shadow: 2px 2px 20px rgb(255, 255, 255);
+
+}
+.about-con:hover .about-main h1{
+    color: white;
+}
+
+.about-img{
+    width: 400px;
+    position: relative;
+    top:10rem;
+    left:3rem;
+    border-radius: 50%;
+    box-shadow: 2px 10px 13px rgb(40, 40, 40);
+}
+
+/* main details in about section ================= */
+.about-main h1:nth-child(1){
+    position: relative;
+    left: 40rem;
+    bottom:20rem;
+    font-family:'Times New Roman', Times, serif;
+    width:200px;
+
+}
+
+.about-main h1:nth-child(1)::after{
+    content:"......";
+}
+
+.about-main h1:nth-child(2){
+    position: relative;
+    left: 42rem;
+    bottom:20rem;
+    font-family:teko;
+    width:200px;
+
+}
+
+/* ================= about btn ================= */
+.about-btn{
+    position: relative;
+    left:40rem;
+    bottom:5rem;
+    width:200px;
+
+
+}
+.about-btn button:nth-child(1){
+    width:150px;
+    height:50px;
+    margin:50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bolder;
+    border:2px solid white;
+
+}
+.about-btn button:nth-child(2){
+    width:150px;
+    height:50px;
+    background-color:rgba(0, 0, 0, 0.8);
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    font-size:15px;
+    font-weight: bolder;
+    position: relative;
+    left: 15rem;
+    bottom:6.2rem;
+    border:2px solid white;
+
+}
+.about-btn button:nth-child(1):hover,button:nth-child(2):hover{
+    background-color: rgb(255, 255, 255);
+    transition:0.8s;
+    color: rgb(0, 0, 0);
+    border:2px solid white;
+}
+
+/* .about-person{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 24rem;
+    top:0rem;
+    border-radius: 20px;
+
+}
+
+.about-con .mail-intro{
+    width:600px;
+    height:500px;
+    position: relative;
+    bottom: 30rem;
+    left: 17rem;
+
+}
+
+.mail-intro:hover .about-person{
+
+    animation: pop-mail 1s linear 1;
+
+
+} */
+
+
+
+
+
+
+
+
+
+
+
+/* ============for tablet ====================== */
+
+@media only screen and (max-width: 770px ) and ( min-width: 600px)   {
+
+        body{
+            background-color: rgb(0, 0, 0);
+        }
+
+        .person_img {
+            display: none;
+        }
+
+        /* ==========circle animation=========== */
+        .cir-con{
+            background-color:aqua;
+            width: 67%;
+            position: relative;
+
+
+        }
+        .circle{
+            width: 15rem;
+            height: 15rem;
+            position: relative;
+            top: 10rem;
+
+
+        }
+        .circle1{
+            width: 15rem;
+            height: 15rem;
+            position: relative;
+            top:-5rem;
+        }
+
+        .circle2{
+            position: relative;
+            top:-2rem;
+        }
+        .circle3{
+            position: relative;
+            top:-9rem;
+        }
+
+        /* ======================= navbar for laptop ========================= */
+
+
+
+
+
+}
+
+/* =================laptop screen size ========================== */
+@media only screen and (min-width:770px) and (max-width: 1600px) {
+    .cir-con{
+        background-color:transparent;
+        width:30rem;
+        height:32rem;
+        position: relative;
+        top:-25rem;
+        left:0rem;
+    }
+
+    .circle{
+        width:15rem;
+        height:15rem;
+        position: relative;
+        left:4rem;
+
+    }.circle1{
+        width: 15rem;
+        height: 15rem;
+        position: relative;
+        top:-10rem;
+        left:4rem;
+    }.circle2{
+        width:5rem;
+        height: 5rem;
+        position: relative;
+        left:20rem;
+        top:-6rem;
+    }.circle3{
+        width:5rem;
+        height: 5rem;
+        position: relative;
+        left:20rem;
+        top:-11rem;
+
+    }
+    .navbar{
+        position:relative;
+        left:40rem;
+    }
+    .navbar ul a li{
+        font-size:25px;
+    }
+
+    /* === name title for home page  =====  */
+    .name-title{
+        position: relative;
+        left:25rem;
+        background-color:transparent;
+        height:8rem;
+
+    }.name-title h3:nth-child(1){
+        font-size:20px;
+        position:absolute;
+        top:0rem;
+    }.name-title h1:nth-child(2){
+        font-size:65px;
+        position:absolute;
+        top:0rem;
+    }.name-title h1:nth-child(3){
+        font-size:35px;
+        position: absolute;
+        top:4rem;
+    }
+    .main-details{
+        position: relative;
+        left:29rem;
+        background-color: rgb(82, 82, 82,0);
+        top:9rem;
+        height: 20rem;
+        width:35rem;
+    }
+    .main-details h3:nth-child(1){
+        font-size:35px;
+        position: relative;
+        top: 1rem;
+        left: 1rem;
+    }.main-details .type{
+        font-size:30px;
+        position: relative;
+        top:-4.5rem;
+        left:7rem;
+    }.main-details p:nth-child(3){
+        font-size: 15px;
+        left:0rem;
+    }.btn button:nth-child(1){
+        position:absolute;
+        left:13rem;
+    }
+    /* ======= home img ======== */
+    .person_img{
+        position: relative;
+        top: -47rem;
+        left:-5rem;
+        width:16rem;
+        background-color: transparent;
+    }
+    .person_img img{
+        width: 250px;
+    }
+
+
+
+
+    /* skill part for laptop size edit and responsive-===== */
+    .skill{
+        position: relative;
+        top: -12rem;
+        background-color: transparent;
+    }.skill .title-sec h1{
+        font-size: 45px;
+    }.title{
+        background-color: black;
+        width:98%;
+        position: relative;
+        top: -11rem;
+        left: 1rem;
+    }
+    .title .title1,.title2,.title3,.title4{
+        position: relative;
+        left: -1rem;
+        width:28rem;
+    }
+    /* =============== skill tool clinders edits ==========*/
+    .tools .html-load{
+        width:20rem;
+    }.tool-program .js-pro{
+        position: relative;
+        left:1.5rem;
+        top: 3.2rem;
+    }.tool-program .js-pro-load{
+        position: relative;
+        left:5rem;
+        top:-0.5rem;
+        width:17rem;
+    }.tool-program .python-pro{
+        position: relative;
+        left:1.5rem;
+        top: 2rem;
+    }.tool-program .python-pro-load{
+        width:17rem;
+        position:relative;
+        top:-2rem;
+        left:5rem;
+    }.tool-program .java-pro{
+        position: relative;
+        left:-1rem;
+        top:0.5rem;
+    }.tool-program .java-pro-load{
+        position: relative;
+        left:5rem;
+        top:-4rem;
+        width:14rem;
+    }.disign .figma{
+        position: relative;
+        left:0.5rem;
+    }.disign .figma-tool{
+        position: relative;
+        top:0.6rem;
+        left:6rem;
+        width: 20rem;
+    }.disign .ps{
+        position: relative;
+        left:1.6rem;
+
+    }.disign .ps-tool{
+        position: relative;
+        left:6rem;
+        width:17rem;
+    }.disign .lr{
+        position: relative;
+        left:1.6rem;
+    }.disign .lr-tool{
+        position: relative;
+        left:6rem;
+        width:20rem;
+
+    }.disign .pixel{
+        position: relative;
+        left:1.7rem;
+
+    }.disign  .pixellab{
+        position: relative;
+        left:6rem;
+        width:21rem;
+    }
+    /* ============== projects side -con ========== */
+
+    .projects{
+        position: relative;
+        top:30rem;
+        display: flex;
+        justify-content: center;
+        height:35rem;
+    }.project-con{
+        height:55rem;
+    }
+    .project-con h1{
+        font-size:34px;
+        position: relative;
+        left:33rem;
+    }.project-con-main{
+        position: relative;
+        background-color:transparent;
+        left:-4rem;
+        height:35rem;
+
+    }
+    .project-con-main div{
+        width:15rem;
+        height:15rem;
+        border-radius: 20px;
+    }.pro-main-con{
+        background-color: white;
+        width: 35rem;
+        height: 30rem;
+        position:absolute;
+        left: 31rem;
+        bottom:-7rem;
+        display:none;
+        border-radius: 30px;
+        animation: popup 0.5s linear 1;
+        z-index: 1;
+
+    }.pro-main-con .btn_code button{
+        position: relative;
+        top:10rem;
+        left:2rem;
+        width:90px;
+        height:40px;
+        background-color: rgb(208, 108, 208);
+        color: rgb(0, 0, 0);
+        font-size: 10px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight:bold;
+        border-style:none ;
+        border-radius: 10px;
+    }.about-con{
+        height: 40rem;
+    }
+    .about-con .about-img{
+        width: 20rem;
+    }
+    /* ================== photography collection=========== */
+    .photo{
+        background-color: rgb(0, 0, 0);
+        width: 100%;
+        height:70rem;
+        position: relative;
+        top:60rem;
+    }.photo-con{
+        position: relative;
+        top:8rem;
+    }
+    .photo .photo-con div:nth-child(1){
+        background-image:url(./res/photo-file/1675443625290.jpg); 
+        height:10rem;
+        background-size: cover;
+        opacity:0.5;
+        width:20rem;
+        top: 0rem;
+        left:2rem;
+        position: relative;
+        border-radius: 20px;
+        border:1px solid white;
+
+    }.photo .photo-con div:nth-child(1):hover{
+        opacity: 1;
+        border-style: none;
+        background-size:cover;
+        transition: 1s;
+        box-shadow: burlywood 2px 2px 20px;
+        background-image: url(./res/photo-file/1675443625290.jpg);
+    }.photo .photo-con div:nth-child(2){
+        background-image: url(./res/photo-file/1675443625307.jpg);
+        background-size:cover ;
+        height:12rem;
+        width:15rem;
+        opacity:0.5;
+        top:1rem;
+        left:11rem;
+        position: relative;
+        border-radius: 20px;
+        border: 1px solid white;
+
+    }.photo .photo-con div:nth-child(2):hover{
+        transition: 1s;
+        border-style:none;
+        opacity: 1;
+        background-image: url(./res/photo-file/1675443625307.jpg);
+        background-size:cover ;
+        box-shadow: rgb(241, 41, 237) 2px 2px 20px;
+
+    }
+    .photo .photo-con div:nth-child(3){
+        background-image: url(./res/photo-file/1675443625369.jpg);
+        background-size: cover;
+        height:15.5rem;
+        width:18.5rem;
+        opacity:0.5;
+        top:-27rem;
+        left: 23rem;
+        position:relative;
+        border-radius: 20px;
+        border: 1px solid white;
+
+    }.photo .photo-con div:nth-child(3):hover{
+        transition: 1s;
+        border-style: none;
+        opacity: 1;
+        background-image: url(./res/photo-file/1675443625369.jpg);
+        background-size: cover;
+        box-shadow: rgb(96, 123, 255) 2px 2px 20px;
+
+      
+
+    }
+    
+    .photo .photo-con div:nth-child(4){
+        background-image:url(./res/photo-file/1675443625327.jpg) ;
+        background-size: cover;
+        height:20rem;
+        width:15rem;
+        top: -26rem;
+        opacity:0.5;
+        left:26.5rem;
+        position:relative;
+        border-radius: 20px;
+        border: 1px solid white;
+
+    }.photo .photo-con div:nth-child(4):hover{
+        transition: 1s;
+        border-style:none;
+        opacity:1;
+        background-image:url(./res/photo-file/1675443625327.jpg) ;
+        background-size: cover;
+        box-shadow: rgb(255, 136, 67) 2px 2px 20px;
+
+    }
+    .photo .photo-con div:nth-child(5){
+        background-image:url(./res/photo-file/1675443625391.jpg) ;
+        background-size: cover;
+        height:15rem;
+        width:15rem;
+        top: -54rem;
+        opacity:0.5;
+        left:42rem;
+        position:relative;
+        border:1px solid white;
+        border-radius:20px;
+
+    }.photo .photo-con div:nth-child(5):hover{
+        transition: 1s;
+        border-style: none;
+        opacity:1;
+        background-image:url(./res/photo-file/1675443625391.jpg) ;
+        background-size: cover;
+        box-shadow: rgb(255, 136, 67) 2px 2px 20px;
+
+    }
+    .photo .photo-con div:nth-child(6){
+        background-image: url(./res/photo-file/1675443625348.jpg);
+        background-size: cover;
+        border: 1px solid white;
+        height:20rem;
+        width:20rem;
+        opacity:0.5;
+        top: -53rem;
+        left:42rem;
+        position:relative;
+        border-radius:20px;
+
+    }.photo .photo-con div:nth-child(6):hover{
+        transition: 1s;
+        border-style:none;
+        opacity:1;
+        background-image: url(./res/photo-file/1675443625348.jpg);
+        background-size: cover;
+       
+        box-shadow: rgb(121, 101, 2) 2px 2px 20px;
+
+    }
+    .photo .photo-con div:nth-child(7){
+        background-color: rgb(255, 255, 255,0.5);
+        height:8rem;
+        width:20rem;
+        top: -98rem;
+        opacity:0.5;
+        left:42rem;
+        position:relative;
+        border-radius:20px;
+
+    }  .photo .photo-con div:nth-child(8){
+        background-color: rgb(255, 255, 255,0.5);
+        height:15rem;
+        width:10rem;
+        top: -89rem;
+        opacity:0.5;
+        left:0.5rem;
+        position:relative;
+        animation: roming2 15s linear infinite;
+        border-radius:20px;
+
+    }  .photo .photo-con div:nth-child(9){
+        background-color: rgb(255, 255, 255,0.5);
+        height:15.5rem;
+        width:15rem;
+        top: -91.5rem;
+        opacity:0.5;
+        left:11rem;
+        position:relative;
+        border-radius:20px;
+
+    }
+    .photo .photo-con div:nth-child(10){
+        background-color: rgb(255, 255, 255,0.5);
+        height:9rem;
+        width:15rem;
+        opacity:0.5;
+        top: -99rem;
+        left:26.5rem;
+        position:relative;
+        border-radius:20px;
+
+    }
+
+    .photo .photo-con div:nth-child(11){
+        background-color: rgb(255, 255, 255,0.5);
+        height:15.8rem;
+        width:9rem;
+        opacity:0.5;
+        top:-137rem;
+        left:57.5rem;
+        position:relative;
+        border-radius:20px;
+
+    }.insta-id{
+        background-color:transparent;
+        height: 2rem;
+        width:20rem;
+        z-index: 1;
+        position:absolute;
+        left:70rem;
+        top:3rem;
+
+    }.insta-id h1{
+        color: rgb(255, 255, 255);
+        font-size:40px;
+        font-family:'Courier New', Courier, monospace;
+    }.insta-id img{
+        width:350px;
+        border-radius: 10px;
+      
+
+    }
+    .insta-id img:hover{
+        box-shadow:2px 2px 20px rgb(255, 255, 255);
+    }
+
+
+
+
+   
+
+    /* =========== BTN FOR INSTA PHOTOSITE ==========*/
+    .insta-link .insta-btn button{
+        position:absolute;
+        bottom:32rem;
+        left: 77.5rem;
+        font-family: 'Courier New', Courier, monospace;
+        color: white;
+        width: 130px;
+        border-radius:5px;
+        height:40px;
+        border-style:none ;
+        background-image: linear-gradient(to right,rgb(219, 49, 162),rgb(160, 64, 204));
+        
+       
+
+    }.insta-link .insta-btn button:active{
+        box-shadow: 2px 2px 20px rgb(214, 94, 251);
+
+    }
+    /* =================== pro-con img of projects ================= */
+    .pro-main-con .close img{
+        width:40px;
+        float: right;
+        position: relative;
+        bottom:16rem;
+        right:0.5rem;
+        z-index:1;
+        cursor: pointer;
+    }
+    .img-pro{
+        background-color:gray;
+        height:17rem;
+        overflow-y:hidden;
+        overflow-x: scroll;
+        display:flex;
+    }
+    .img-pro::-webkit-scrollbar:horizontal{
+        width:2px
+        
+        
+    }
+    .img-pro img{
+        width:500px;
+    }
+
+    /* ====================== contact-form =============== */
+    .contact-con{
+        background-color: rgb(29, 7, 25);
+        width:100%;
+        height:50rem;
+        position: relative;
+        top:70rem;
+    }.contact-con .form-con{
+        background-color: rgb(255, 255, 255,.4);
+        width:35rem;
+        height: 40rem;
+        position: relative;
+        top: 5rem;
+        left:5rem;
+        border-radius: 20px;
+        
+    }.contact-name h1{
+        color:rgb(41, 16, 41);
+        text-align: center;
+        position: relative;
+        top:1rem;
+        font-family: teko;
+    }.input-con{
+        display:grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        position: relative;
+        top:2rem;
+    }.input-con input{
+        width: 400px;
+        height:50px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-left:20px;
+        border-style: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        font-weight:bold;
+        background-color: transparent;
+        border: 1px solid white;
+    
+    }.input-con input:focus{
+        outline: none;
+        border: 2px solid rgb(255, 172, 255);
+        box-shadow: 2px 2px 20px rgb(255, 114, 248);
+
+    }
+    
+    .input-con textarea{
+        max-width:400px ;
+        min-width:400px;
+        min-height:200px;
+        max-height:200px ;
+        font-size: 15px;
+        font-weight: bold;
+        padding-left: 20px;
+        padding-top: 10px;
+        border-radius:10px;
+        border-style: none;
+        background-color: rgba(255, 255, 255, 0.4);
+    }.send-btn button{
+        position: relative;
+        top: 4rem;
+        left:5rem;
+        height: 40px;
+        border-radius: 10px;
+        border-style: none;
+        width: 400px;
+        font-family:'Courier New', Courier, monospace;
+        font-size:17px;
+        font-weight: bolder;
+        color: white;
+        background-color:black;
+        /* border:2px solid white; */
+    
+    
+    }.line{
+        background-color: white;
+        height:600px;
+        width:0.05rem;
+        position: relative;
+        float: right;
+        right:35rem;
+        bottom: 30rem;
+    }.link{
+        float: right;
+        display: grid;
+        grid-template-columns: auto;
+        position: relative;
+        bottom:26rem;
+        right:32rem;
+    }
+    .link img{
+        margin-bottom: 40px;
+    }
+    .link img:nth-child(1){
+        width:25px;
+    }
+    .link img:nth-child(2){
+        width:25px;
+    }
+    .link img:nth-child(3){
+        width:25px;
+    }
+    .link img:nth-child(4){
+        width:25px;
+    }
+    .link img:nth-child(5){
+        width:25px;
+    }
+    .link-det{
+        float:right;
+        color: white;
+        position: relative;
+        bottom: 26.5rem;
+        right:15rem;
+
+    }.link-det h3{
+        margin-bottom:47px;
+        font-size:15px;
+        font-family: 'Courier New', Courier, monospace;
+    }.link-det h3:nth-child(2){
+        cursor: default;
+    }
+    .link-det h3 a{
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= MOBILE VERSION ======================= */
+
+@media only screen and (max-width :500px){
+    body{
+        background-color: rgb(0, 0, 0);
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    /* =======circle=================== */
+
+    .cir-con{
+        position: relative;
+        bottom:21rem;
+        left:6rem;
+        width:55%;
+        background-color:transparent;
+        height:16rem;
+        z-index: -1;
+    }
+    .circle{
+        width:8rem;
+        height:8rem;
+        position: relative;
+        top:1rem;
+        left:4rem;
+    }
+    .circle1{
+        width:8rem;
+        height:8rem;
+        position: relative;
+        top:-7rem;
+        left:4rem;
+
+    }
+    .circle3{
+        width:4rem;
+        height:4rem;
+        position: relative;
+        top:-9rem;
+        left:5rem;
+
+    }
+    .circle2{
+        width:4rem;
+        height:4rem;
+        position: relative;
+        top:-5rem;
+        left:5rem;
+
+    }
+    /* ================== NAME CONTENTS ============ */
+
+    .name-title{
+        position:relative;
+        left:0rem;
+        top:20rem;
+        width:98%;
+        
+
+    }
+    .name-title h3:nth-child(1){
+        font-size:1rem;
+        float: left;
+        position:absolute;
+        top: 0;
+        left:30px;
+
+    }
+    .name-title h1:nth-child(2){
+        font-size: 35px;
+        top:2rem;
+        left: 2rem;
+        position: relative;
+        float: left;
+
+    }
+    .name-title h1:nth-child(3){
+        font-size:18px;
+        position: relative;
+        top:5rem;
+        left:3rem;
+    }
+
+    .main-details{
+        position:absolute;
+        left:1rem;
+        top:36rem;
+        background-color:red;
+
+    }
+    .main-details h1{
+        font-size: 24px;
+        position: relative;
+        left: 4rem;
+        bottom: 2rem;
+    }
+    /* =========== menu logo ============== */
+    .logo{
+        display: block;
+
+    }
+    .logo img:nth-child(1){
+        width: 40px;
+        opacity:1;
+        position: absolute;
+        top: 1rem;
+        left:1rem;
+    }
+    #cancel_btn{
+        width: 40px;
+        opacity:1;
+        position: absolute;
+        top: 1rem;
+        left: 1rem;
+        display: none;
+        z-index: 1;
+
+    }
+    /* =============== NAV BAR =================== */
+    #navbar{
+        background-color: rgba(61, 61, 61, 0.6);
+        position: absolute;
+        left:0rem;
+        top: 0;
+        z-index: 1;
+        width:0;
+
+
+    }
+    .navbar ul{
+        display:grid;
+        grid-template-rows: auto auto auto auto;
+        row-gap: 40px;
+        position: relative;
+        top: 10rem;
+        left: -10rem;
+        transition: 0.2s;
+
+
+    }
+    /* ==========  */
+    .person_img{
+        position:absolute;
+        top:42rem;
+        left:10rem;
+        width: 45%;
+        height:20rem;
+        background-color: transparent;
+
+    }
+    .person_img img{
+        width: 150px;
+        position: relative;
+        float:left;
+
+    }.btn .download-cv{
+        width:100px;
+        font-size:11px;
+        height: 30px;
+        top:9rem;
+        position:absolute;
+        left:11rem;
+    }
+
+   /* ================ main edit==================== */
+
+   .main-details{
+    background-color: transparent;
+    position: relative;
+    top:16rem;
+    left:1rem;
+    width:90%;
+   }
+   .main-details h3{
+    font-size:18px;
+    position: relative;
+    top: 0.5rem;
+    left:5rem;
+
+   }
+   .main-details h1{
+    font-size:16px;
+    position: relative;
+    top:-2.2rem;
+    left:9rem;
+   }
+   .main-details p{
+    font-size:18px;
+    line-height:20px;
+    position:absolute;
+    top:2rem;
+    left: 2rem;
+   }
+
+   /* ================== skills for mobile veiw ================= */
+   .skill{
+    width: 98%;
+    position: relative;
+    top: 20rem;
+    
+   }
+   .skill .title-sec h1{
+  
+    text-align:center;
+    font-size: 25px;
+    position:absolute;
+    left:13rem;
+
+   }
+
+   .title{
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 30px;
+    position: relative;
+    top:5rem;
+   }
+
+   .title .title1,.title2,.title3,.title4{
+    width: 22.5rem;
+    height:25rem;
+    position: relative;
+    left:3.5rem;
+    margin-left:10px;
+   }
+
+   .title1 h1{
+    font-size:21px;
+   }
+
+   .title1 .html{
+    width: 20%;
+    position: relative;
+    top:2rem;
+
+   }
+   .title1 .html-load{
+    height: 2rem;
+    position: relative;
+    left:3rem;
+    top: -1rem;
+   }
+   .title1 .html-load h2{
+    font-size: 12px;
+   }
+   .tools .css{
+    width: 14%;
+    position: relative;
+    top:0.5rem;
+    left: 0.7rem;
+   }
+   .tools .css-load{
+    height: 2rem;
+    position: relative;
+    left:3rem;
+    top: -2.5rem;
+
+   }
+   .tools .css-load h2{
+    font-size: 12px;
+   }
+
+   .title1 .js{
+    width:33px;
+    position: relative;
+    top:-1rem;
+    left:1.4rem;
+   }
+   .tools .js-load{
+    height: 2rem;
+    position: relative;
+    left:3rem;
+    top:-3.5rem;
+   }
+
+   .tools .js-load h2{
+    font-size: 12px;
+   }
+
+   .title1 .react{
+    width:34px;
+    position: relative;
+    top:-2.5rem;
+   }
+   .tools .react-load{
+    height: 2rem;
+    position: relative;
+    left:3rem;
+    top:-4.9rem;
+
+   }
+   .tools .react-load h2{
+    font-size:12px;
+   }
+   .con1-skill{
+    position: relative;
+    top:-2rem;
+   }
+   .tool-program .js-pro{
+    position: relative;
+    width:34px;
+    top:0.7rem;
+    left:1rem;
+   }.tool-program .js-pro-load{
+    position: relative;
+    top: -2rem;
+    height:2rem;
+    left:3.3rem;
+    width:15rem;
+   }.tool-program .js-pro-load h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }
+   .tool-program .python-pro{
+    position: relative;
+    width:34px;
+    top:0.7rem;
+    left:1rem;
+   }.tool-program .python-pro-load{
+    position: relative;
+    top: -2rem;
+    height:2rem;
+    left:3.3rem;
+    width:15rem;
+   }.tool-program .python-pro-load h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }
+   .tool-program .java-pro{
+    position: relative;
+    width:60px;
+    top:0.7rem;
+    left:0rem;
+   }.tool-program .java-pro-load{
+    position: relative;
+    top: -2rem;
+    height:2rem;
+    left:3.3rem;
+    width:11rem;
+   }.tool-program .java-pro-load h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }.disign .figma{
+    position: relative;
+    width:60px;
+    top:0.7rem;
+    left:0rem;
+
+   }.disign .figma-tool{
+    position: relative;
+    top: -3rem;
+    height:2rem;
+    left:3.3rem;
+    width:16rem;
+   }.disign .figma-tool h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }
+   .disign .ps{
+    position: relative;
+    width:35px;
+    top:-1rem;
+    left:0.8rem;
+
+   }.disign .ps-tool{
+    position: relative;
+    top: -4rem;
+    height:2rem;
+    left:3.3rem;
+    width:14rem;
+   }.disign .ps-tool h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }
+   .disign .lr{
+    position: relative;
+    width:35px;
+    top:-2rem;
+    left:0.8rem;
+
+   }.disign .lr-tool{
+    position: relative;
+    top: -5rem;
+    height:2rem;
+    left:3.3rem;
+    width:16rem;
+   }.disign .lr-tool h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;
+   }
+   .disign .pixel{
+    position: relative;
+    width:35px;
+    top:-3rem;
+    left:0.8rem;
+
+   }.disign .pixellab{
+    position: relative;
+    top: -6rem;
+    height:2rem;
+    left:3.3rem;
+    width:18rem;
+   }.disign .pixellab h2{
+    font-size: 12px;
+    position: relative;
+    top:0.7rem;}
+
+    .disign .pixel{
+        position: relative;
+        width:35px;
+        top:-3rem;
+        left:0.8rem;
+    
+       }.disign .pixellab{
+        position: relative;
+        top: -6rem;
+        height:2rem;
+        left:3.3rem;
+        width:18rem;
+       }.disign .pixellab h2{
+        font-size: 12px;
+        position: relative;
+        top:0.7rem;
+    }
+
+
+    .other-skill .node{
+            position: relative;
+            width:30px;
+            top:-0.7rem;
+            left:0.8rem;
+        
+    }
+    .other-skill .node-tool{
+            position: relative;
+            top: -3.6rem;
+            height:2rem;
+            left:3.3rem;
+            width:14rem;
+    }
+    .other-skill .node-tool h2{
+            font-size: 12px;
+            position: relative;
+            top:0.7rem;
+    }
+        
+    .other-skill .mongodb{
+                position: relative;
+                width:35px;
+                top:-2rem;
+                left:0.8rem;
+            
+    }
+    .other-skill .mongodb-tool
+    {
+                position: relative;
+                top: -5rem;
+                height:2rem;
+                left:3.3rem;
+                width:8rem;
+    }
+    .other-skill .mongodb-tool h2{
+                font-size: 12px;
+                position: relative;
+                top:0.7rem;
+    }
+
+    .other-skill .sql{
+                    position: relative;
+                    width:35px;
+                    top:-3rem;
+                    left:0.8rem;
+                
+    }.other-skill .sql-tool
+    {
+                    position: relative;
+                    top: -6rem;
+                    height:2rem;
+                    left:3.3rem;
+                    width:8rem;
+     }
+    .other-skill .sql-tool h2{
+                    font-size: 12px;
+                    position: relative;
+                    top:0.7rem;
+    }
+
+    .title4 .other-skill .cordova{
+        position: relative;
+        width:30px;
+        top:-4rem;
+        left:0.8rem;
+                     
+                    
+    }
+    .title4 .other-skill .cordova-tool{
+                        position: relative;
+                        top: -6.7rem;
+                        height:2rem;
+                        left:3.3rem;
+                        width:11rem;
+    }
+    .title4 .other-skill .cordova-tool h2{
+                        font-size: 12px;
+                        position: relative;
+                        top:0.7rem;
+    } 
+    .title4 .other-skill .volt{
+        position: relative;
+        width:30px;
+        top:-5rem;
+        left:0.8rem;
+                     
+
+    }.title4 .other-skill .volt-tool{
+        position: relative;
+        top: -8.2rem;
+        height:2rem;
+        left:3.3rem;
+        width:11rem;
+
+    } .title4 .other-skill .volt-tool h2{
+        font-size: 12px;
+        position: relative;
+        top:0.7rem;
+    }
+
+
+/*  ================================= */
+    .title2 h1{
+        font-size:21px;
+    }.title3 h1{
+        font-size: 21px;
+    }.title4 h1{
+        font-size: 21px;
+    }
+   /*  ======================================== projects =====================*/
+   .projects{
+    background-color:transparent;
+    position: relative;
+    width: 98%;
+    top: 70rem;
+   }
+   .project-con{
+    background-color:transparent;
+   }
+   .projects .project-con h1{
+     font-size: 35px;
+     animation: project 1s linear 1;
+     position: relative;
+     left:12rem;
+    
+
+   }
+   @keyframes project {
+    0%{
+        position: relative;
+        left: 0rem;
+    }
+    50%{
+        position: relative;
+        left: 6rem;
+
+    }
+    100%{
+        position: relative;
+        left:12rem;
+    }
+
+
+
+}
+   .project-con-main{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows:200px 200px 200px;
+   }
+   .project-con-main #pro-con{
+    width:10rem;
+    height: 10rem;
+
+    position: relative;
+    left:2.5rem;
+    border-radius:10px;
+   }
+
+   /* ================== projects con btns style and ============= */
+
+   #pro-con .fuck{
+    width:5rem;
+    font-size:8px;
+    height:30px;
+    left:2rem;
+    border-radius: 10px;
+    position: relative;
+    top:3rem;
+   }
+
+   .project-con-main #pro-con:hover .fuck{
+    display: block;
+    animation: btnn 0.5s linear 1;
+    opacity:1;
+
+
+}
+
+
+
+@keyframes btnn{
+    0%{
+        position: relative;
+        top: 0rem;
+    }
+    100%{
+        position: relative;
+        top:3rem;
+    }
+
+}
+
+#pro-con h2{
+    position: relative;
+    top:6rem;
+    right: 2.3rem;
+    display: none;
+    font-size:12px;
+    color: white;
+
+}
+
+#pro-con:hover h2{
+    animation: h2 0.5s linear 1;
+    display: block;
+    color:rgb(255, 255, 255);
+
+}
+@keyframes h2 {
+    0%{
+        position: relative;
+        top:8rem;
+    }
+
+
+}
+.pro-main-con{
+    width: 23rem;
+    height: 25rem;
+    position: relative;
+    left:4rem;
+    display:none;
+    
+
+}.img-pro{
+    background-color:transparent;
+    width: 100%;
+    height:200px;
+    display: flex;
+    overflow-x: scroll;
+}
+.img-pro img{
+    width:450px;
+}
+.close img{
+    position: relative;
+    float: right;
+    width:30px;
+    right:0.5rem;
+    bottom:12rem;
+}
+
+/* ======================= photo con ========================== */
+
+.photo{
+    position: relative;
+    top:80rem;
+   
+    height:60rem;
+    width: 90%;
+    z-index: 0;
+}.photo-con{
+    z-index: 0;
+    width: 100%;
+    height: 90rem;
+    position: relative;
+    top:3rem;
+    width: 100%;
+    background-color: transparent;
+}
+
+.photo-con div:nth-child(1){
+   
+    position:absolute;
+    top:2rem;
+    left:8rem;
+    width:12rem;
+    height:7rem;
+    border-radius: 20px;
+    opacity:0.5;
+    border: 2px solid white;
+    background-image: url(./res/photo-file/1675443625290.jpg);
+    background-size:cover ;
+}
+.photo-con div:nth-child(1):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(2, 174, 30);
+    transition:1s;
+}
+ .photo-con div:nth-child(2){
+    background-image: url(./res/photo-file/1675443625307.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:10rem;
+    left:6rem;
+    width:9rem;
+    height:6rem;
+}
+.photo-con div:nth-child(2):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(222, 33, 255);
+    transition:1s;
+}
+.photo-con div:nth-child(3){
+    background-image: url(./res/photo-file/1675443625327.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top: 0;
+    left: 15.7rem;
+    width:6rem;
+    height:9rem;
+    top: 10rem;
+    
+}
+.photo-con div:nth-child(3):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(255, 220, 20);
+    transition:1s;
+}
+.photo-con div:nth-child(4){
+    background-image: url(./res/photo-file/1675443625348.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:17rem;
+    left:1.5rem;
+    width:13rem;
+    height:15rem;
+}
+.photo-con div:nth-child(4):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(45, 192, 255);
+    transition:1s;
+}
+.photo-con div:nth-child(5){
+    background-image: url(./res/photo-file/1675443625369.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:20rem;
+    left:16rem;
+    width:12rem;
+    height:12rem;
+}
+.photo-con div:nth-child(5):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(189, 235, 254);
+    transition:1s;
+}
+.photo-con div:nth-child(6){
+    background-image: url(./res/photo-file/1675443625391.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:34rem;
+    left:5.5rem;
+    width:20rem;
+    height:16rem;
+}
+.photo-con div:nth-child(6):hover{
+    opacity: 1;
+    border-style: none;
+    box-shadow: 2px 2px 10px rgb(176, 67, 13);
+    transition:1s;
+}
+.photo-con div:nth-child(7){
+    /* background-image: url(./res/photo-file/1675443625391.jpg);
+    background-size: cover; */
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:orem;
+    left:0.5rem;
+    width:7rem;
+    height:9rem;
+    display: none;
+}
+.photo-con div:nth-child(8){
+    /* background-image: url(./res/photo-file/1675443625391.jpg);
+    background-size: cover; */
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:3rem;
+    left:22.5rem;
+    width:5.6rem;
+    height:15rem;
+    display:none;
+}
+.photo-con div:nth-child(9){
+    background-image: url(./res/photo-file/1675443625391.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:33rem;
+    left:16.5rem;
+    width:11rem;
+    height:15rem;
+    display: none;
+} 
+.photo-con div:nth-child(10){
+    background-image: url(./res/photo-file/1675443625391.jpg);
+    background-size: cover;
+    border-radius: 20px;
+    border: 2px solid white;
+    opacity:0.5;
+    position:absolute;
+    top:44rem;
+    left:0rem;
+    display: none;
+    width:16rem;
+    height:7rem;
+}    
+
+
+
+.insta-id{
+    
+    position:relative;
+    left:2rem;
+    
+}
+.insta-id img{
+    display:block;
+    width: 250px;
+    position: relative;
+    left:0rem;
+    border-radius: 20px;
+    
+}
+.insta-id img:hover{
+    box-shadow:5px 5px 20px  rgb(255, 255, 255);
+}
+.insta-title{
+    background-color:transparent;
+    height: 30rem;
+    width: 100%;
+    z-index: 1;
+    position:absolute;
+    top:55rem;
+    display: inline-flex;
+    justify-content: center;
+}.insta-link button{
+    position:absolute;
+    color:white;
+    font-size:10px;
+    font-weight: bolder;
+    bottom:2rem;
+    right:7.8rem;
+    width:130px;
+    height:50px;
+    background-image:linear-gradient(to right,rgb(239, 73, 239),rgb(86, 86, 216));
+    border-radius:10px;
+    border-style: none;
+}.insta-id h1{
+    color: white;
+    font-size:20px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* ==================== about page ==================== */
+.about{
+    background-color: rgba(51, 0, 34, 0.3);
+    width: 98%;
+    height:70rem;
+
+    position: relative;
+    top:114rem;
+    left:0rem;
+    display: flex;
+    justify-content: center;
+
+}
+.about .about-title h1{
+    color: rgb(118, 118, 118);
+    text-align: center;
+    font-size:29px;
+    font-family: teko;
+    position: relative;
+    left:0rem;
+}
+.about .about-title span{
+    color: white;
+    position: relative;
+    z-index:0;
+    top: 14rem;
+    left: 2.5rem;
+    font-size: 16px;
+    font-family: teko;
+}
+
+
+.about-con{
+    top: 15rem;
+    position:absolute;
+    background-color: black;
+    border-radius: 50%;
+    height:10rem;
+    width:10rem;
+    left:10rem;
+    z-index: 1;
+    border:1px solid rgba(95, 242, 255, 0.717);
+   
+    animation: spinner 2s linear infinite;
+}.about-img {
+    width:150px;
+    border-radius:10px;
+    position: relative;
+    top:2rem;
+    left:7.5rem;
+    display: none;
+
+}
+.about-main h1:nth-child(1){
+    color: black;
+    z-index:1;
+    font-size: 17px;
+    font-family: 'Courier New', Courier, monospace;
+    position:absolute;
+    top:10rem; 
+    
+    
+}
+.about-main{
+    background-color:transparent;
+    height: 23rem;
+    display: none;
+}
+
+.about-main h1:nth-child(2){
+    color: black;
+    font-size: 25px;
+    font-family: teko;
+    position:absolute; 
+    left:8rem;
+    top:13rem;
+
+}
+.about-con:hover h1:nth-child(2){
+    color: black;
+}
+.about-con:hover h1:nth-child(1){
+    color: green;
+}
+
+.about-con .about-btn{
+    position: absolute;
+    left:-5px;
+    top:25rem;
+
+
+}
+.about-btn button:hover{
+    background-image: linear-gradient(to right,purple,blue);
+    color: white;
+}
+.about-btn button:nth-child(1):hover{
+    background-image: linear-gradient(to right,purple,blue);
+    color: white;
+}
+.about-btn button:nth-child(1){
+    width:100px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    position: relative;
+    left: 2rem;
+
+}
+.about-btn button:nth-child(2){
+    width:100px;
+    font-size: 10px;
+    font-family:'Courier New', Courier, monospace ;
+    position: relative;
+    right: 2rem;
+
+
+}
+
+@keyframes spinner {
+    0%{
+        transform: rotate(-90deg);
+        opacity:0.9;
+        box-shadow: 5px 5px 20px red;
+    }
+    25%{
+        transform: rotate(-180deg);
+        opacity:0.9;
+        box-shadow: 5px 5px 20px rgb(0, 136, 255);
+    }
+    50%{
+        transform: rotate(-260deg);
+        opacity:0.9;
+        box-shadow: 5px 5px 20px rgb(4, 255, 0);
+    }
+    100%{
+        transform: translateX(-320deg);
+        opacity:1;
+        box-shadow: 5px 5px 20px purple;
+    }
+    
+}
+.blackscreen-2{
+    background-color: rgba(90, 90, 90, 0.1);
+    width: 100%;
+    height:490rem;
+    position: absolute;
+    top:0;
+    z-index: 0;
+    display: none;
+   
+}.about-close{
+    display:none;
+    position:absolute;
+    width: 30px;
+    top:1rem;
+    cursor: pointer;
+    left:1rem;
+}
+  
+.about-con:hover .about-img{
+    box-shadow: 5px 10px 20px black;
+
+}
+
+.contact-con{
+    background-color: rgb(0, 0, 0);
+   
+    position: absolute;
+    top:420rem;
+    height: 70rem;
+    width:100%;
+}.contact-con .form-con{
+    background-color: rgb(255, 255, 255,0.2);
+    position: absolute;
+    bottom: 20rem;
+    height: 46rem;
+    left:1.5rem;
+    width: 90%;
+    border-radius: 20px;
+}
+
+
+
+.contact-name h1{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    position: relative;
+    top:1rem;
+    font-family: teko;
+    font-size: 16px;
+}.input-con{
+    display:grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    position: relative;
+    top:2rem;
+}.input-con input{
+    color: white;
+    width: 370px;
+    position:relative;
+    left:0.5rem;
+    height:50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding-left:20px;
+    border-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    font-weight:bold;
+    
+    background-color: transparent;
+    border: 1px solid white;
+
+}.input-con input:focus{
+    outline: none;
+    border: 2px solid rgb(255, 172, 255);
+    box-shadow: 2px 2px 20px rgb(255, 114, 248);
+    background-color: white;
+    color: black;
+
+}.input-con input::placeholder{
+    color:white;
+}
+
+.input-con textarea{
+    max-width:380px ;
+    min-width:380px;
+    min-height:300px;
+    max-height:300px ;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+    padding-top: 20px;
+    border-radius:10px;
+    border-style: none;
+    background-color: rgba(255, 255, 255, 0.4);
+}.input-con textarea:focus{
+    outline: none;
+    background-color: black;
+    color:white;
+
+}
+.send-btn button{
+    position: relative;
+    top: 6rem;
+    left:3rem;
+    height: 40px;
+    border-radius: 10px;
+    border-style: none;
+    width:350px;
+    font-family:'Courier New', Courier, monospace;
+    font-size:17px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    /* border:2px solid white; */
+
+
+}.line{
+    background-color: white;
+    height:600px;
+    width:0.05rem;
+    position: relative;
+    float: right;
+    right:0rem;
+    bottom: 0rem;
+}.link{
+    float:left;
+    display:inline-flex;
+    
+    position: relative;
+    top: 55rem;
+    left:6rem;
+   
+}
+.link img{
+    margin-bottom: 40px;
+    margin-left: 30px;
+}
+.link img:nth-child(1){
+    width:20px;
+}
+.link img:nth-child(2){
+    width:20px;
+}
+.link img:nth-child(3){
+    width:20px;
+}
+.link img:nth-child(4){
+    width:20px;
+}
+.link img:nth-child(5){
+    width:20px;
+}
+.link-det{
+    float:right;
+    color: white;
+    position: relative;
+    bottom: 26.5rem;
+    right:15rem;
+    display: none;
+
+}.link-det h3{
+    margin-bottom:47px;
+    font-size:15px;
+    font-family: 'Courier New', Courier, monospace;
+}.link-det h3:nth-child(2){
+    cursor: default;
+}
+.link-det h3 a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.line{
+    display: none;
+}
+
+
+}
+
+/* ============================= very small mobile devices============== */
+
+@media only screen and (min-width:330px) and (max-width:480px) {
+    body{
+        background-color:black;
+    }
+
+    /* ==================== home page ========================= */
+
+    .main-con .name-title {
+        background-color: transparent;
+    }
+    .main-con .name-title h3:nth-child(1){
+        font-size: 12px;
+        color: white;
+        position: absolute;
+        left: 4rem;
+     
+    }.main-con .name-title h1:nth-child(2){
+        font-size: 30px;
+        position: absolute;
+        left: 4rem;
+    }
+    .main-con .name-title h1:nth-child(3){
+        position: absolute;
+        left: 6.5rem;
+        top:4rem;
+    }
+    .main-details{
+        background-color:transparent;
+    }
+    .main-details h3:nth-child(1){
+        position: absolute;
+        left: 2rem;
+    } .main-details h1:nth-child(2){
+        position: absolute;
+        left:5.5rem;
+        top:0.7rem;
+        font-size: 20px;
+        font-family: teko;
+    } .main-details p:nth-child(3){
+        position: absolute;
+        left:0rem;
+        top: 3rem;
+        font-size: 14px;
+        font-family: 'Courier New', Courier, monospace;
+    }.main-details .btn a button{
+        position: absolute;
+        left:8rem;
+        border-radius: 10px;
+        font-size:6px;
+    }
+    .main-con .person_img{
+        position: absolute;
+        left: 7.5rem;
+        bottom:2rem;
+        top:40rem;
+        background-color: #fff;
+        width: 9rem;
+        height: 14rem;
+    }
+    /* =============================================================skills con for small devices ================= */ 
+    .main-con .skill{
+        background-color:transparent;
+        width: 90%;
+        height: 90rem;
+        position:relative;
+        left:1.3rem;
+    }
+    .skill .title-sec h1{
+        position: absolute;
+        left:9rem;
+
+    }
+
+
+    .title{
+        display: grid;
+        grid-template-columns: auto;
+        row-gap: 30px;
+        position: relative;
+        top:5rem;
+        background-color:transparent;
+       }
+    
+       .title .title1,.title2,.title3,.title4{
+        width:16rem;
+        height:18rem;
+        position: relative;
+        left:2.5rem;
+        margin-left:10px;
+       }
+    
+       .title1 h1{
+        font-size:15px;
+       }
+    
+       .title1 .html{
+        width:17%;
+        position: relative;
+        top:1rem;
+        left:1rem;
+    
+       }
+       .title1 .html-load{
+        height: 1.3rem;
+        position: relative;
+        left:3rem;
+        top: -1rem;
+       }
+       .title1 .html-load h2{
+        font-size: 9px;
+        position: relative;
+        bottom:0rem;
+       }
+       .tools .css{
+        width: 11.5%;
+        position: relative;
+        top:0rem;
+        left:1.3rem;
+       }
+       .tools .css-load{
+        height:1.3rem;
+        position: relative;
+        left:3rem;
+        top: -2.5rem;
+    
+       }
+       .tools .css-load h2{
+        font-size: 9px;
+        position: relative;
+        bottom:0rem;
+       }
+    
+       .title1 .js{
+        width:22px;
+        position: relative;
+        top:-1.5rem;
+        left:1.7rem;
+       }
+       .tools .js-load{
+        height:1.3rem;
+        position: relative;
+        left:3rem;
+        top:-3.5rem;
+       }
+    
+       .tools .js-load h2{
+        font-size: 9px;
+        position: relative;
+        bottom:0.3rem;
+       }
+    
+       .title1 .react{
+        width:19px;
+        position: relative;
+        top:-2.7rem;
+       }
+       .tools .react-load{
+        height:1.3rem;
+        position: relative;
+        left:3rem;
+        top:-4.5rem;
+    
+       }
+       .tools .react-load h2{
+        font-size: 9px;
+        position: relative;
+        bottom:0.3rem;
+       }
+       .con1-skill{
+        position: relative;
+        top:-2rem;
+       }
+
+       .title .title2 h1{
+        font-size: 15px;
+       }
+       .tool-program .js-pro{
+        position: relative;
+        width:22px;
+        top:3rem;
+        left:1.5rem;
+       }.tool-program .js-pro-load{
+        position: relative;
+        top:1rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:10rem;
+       }.tool-program .js-pro-load h2{
+        font-size: 9px;
+        position: relative;
+        top:7px;
+       }
+       .tool-program .python-pro{
+        position: relative;
+        width:20px;
+        top:2.3rem;
+        left:1.5rem;
+       }.tool-program .python-pro-load{
+        position: relative;
+        top: 0.7rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:10rem;
+       }.tool-program .python-pro-load h2{
+        font-size: 9px;
+        position: relative;
+        top:0.3rem;
+       }
+       .tool-program .java-pro{
+        position: relative;
+        width:50px;
+        top:1.7rem;
+        left:0.5rem;
+       }.tool-program .java-pro-load{
+        position: relative;
+        top: -0.3rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:6rem;
+       }.tool-program .java-pro-load h2{
+        font-size:9px;
+        position: relative;
+        top:0.3rem;
+       }.disign .figma{
+        position: relative;
+        width:40px;
+        top:0.7rem;
+        left:0.8rem;
+    
+       }.title .title3 h1{
+        font-size: 15px;
+       }
+       .disign .figma-tool{
+        position: relative;
+        top: -2rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:11rem;
+       }.disign .figma-tool h2{
+        font-size:9px;
+        position: relative;
+        top:0.3rem;
+       }
+       .disign .ps{
+        position: relative;
+        width:22px;
+        top:-1rem;
+        left:1.3rem;
+    
+       }.disign .ps-tool{
+        position: relative;
+        top: -3rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:10rem;
+       }.disign .ps-tool h2{
+        font-size:9px;
+        position: relative;
+        top:0.3rem;
+       }
+       .disign .lr{
+        position: relative;
+        width:22px;
+        top:-2rem;
+        left:1.3rem;
+    
+       }.disign .lr-tool{
+        position: relative;
+        top: -4rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:11rem;
+       }.disign .lr-tool h2{
+        font-size:9px;
+        position: relative;
+        top:0.3rem;
+       }
+       .title3 .disign .pixel{
+        position: relative;
+        width:22px;
+        top:-3rem;
+        left:1.3rem;
+    
+       }.title3 .disign .pixellab{
+        position: relative;
+        top: -5rem;
+        height:1.3rem;
+        left:3.3rem;
+        width:12rem;
+       }.title3 .disign .pixellab h2{
+        font-size:9px;
+        position: relative;
+        top:0.3rem;
+    }
+    
+     
+        .title .title4 h1{
+            font-size:15px;
+        }
+    
+        .other-skill .node{
+                position: relative;
+                width:20px;
+                top:0.2rem;
+                left:1.3rem;
+            
+        }
+        .other-skill .node-tool{
+                position: relative;
+                top: -2rem;
+                height:1.3rem;
+                left:3.3rem;
+                width:7rem;
+        }
+        .other-skill .node-tool h2{
+                font-size:9px;
+                position: relative;
+                top:0.3rem;
+        }
+            
+        .other-skill .mongodb{
+                    position: relative;
+                    width:25px;
+                    top:-1rem;
+                    left:0.8rem;
+                
+        }
+        .other-skill .mongodb-tool
+        {
+                    position: relative;
+                    top: -3rem;
+                    height:1.3rem;
+                    left:3.3rem;
+                    width:3rem;
+        }
+        .other-skill .mongodb-tool h2{
+                    font-size:9px;
+                    position: relative;
+                    top:0.3rem;
+        }
+    
+        .other-skill .sql{
+                        position: relative;
+                        width:22px;
+                        top:-2rem;
+                        left:1rem;
+                    
+        }.other-skill .sql-tool
+        {
+                        position: relative;
+                        top:-3.7rem;
+                        height:1.3rem;
+                        left:3.3rem;
+                        width:3rem;
+         }
+        .other-skill .sql-tool h2{
+                        font-size:9px;
+                        position: relative;
+                        top:0.3rem;
+        }
+    
+        .title4 .other-skill .cordova{
+            position: relative;
+            width:22px;
+            top:-3rem;
+            left:0.8rem;
+                         
+                        
+        }
+        .title4 .other-skill .cordova-tool{
+                            position: relative;
+                            top: -5rem;
+                            height:1.3rem;
+                            left:3.3rem;
+                            width:6rem;
+        }
+        .title4 .other-skill .cordova-tool h2{
+                            font-size:9px;
+                            position: relative;
+                            top:0.3rem;
+        } 
+        .title4 .other-skill .volt{
+            position: relative;
+            width:22px;
+            top:-4rem;
+            left:1rem;
+                         
+    
+        }.title4 .other-skill .volt-tool{
+            position: relative;
+            top: -6rem;
+            height:1.3rem;
+            left:3.3rem;
+            width:6rem;
+    
+        } .title4 .other-skill .volt-tool h2{
+            font-size:9px;
+            position: relative;
+            top:0.3rem;
+        }
+    
+    
+    /*  ================================= */
+      
+
+        .title .title1:focus{
+            background-color: white;
+            position: relative;
+            bottom: 1rem;
+            transition:1s;
+            box-shadow: purple 2px 2px 30px 10px;
+        }
+        
+        .title2:hover{
+            background-color: white;
+            position: relative;
+            bottom: 1rem;
+            transition:1s;
+            box-shadow: purple 2px 2px 30px 10px;
+        
+        }
+
+
+
+        /* ========================= projects for mobile ======================== */
+
+        .projects{
+            background-color: transparent;
+            height:60rem;
+            position: relative;
+            top: 23rem;
+            left:4px;
+        }
+         #pro-con:hover{
+            background-color: black;
+
+        }
+        .pro-main-con{
+            display:none;
+            position: relative;
+            left:1.8rem;
+
+            width:20rem;
+            height:25rem;
+        }
+        .pro-main-con .close #close_btn{
+            position:absolute;
+            top:1rem;
+        }
+
+        .pro-main-con .btn_code button{
+            position:absolute;
+            bottom: 2rem;
+            left: 7rem;
+            width:100px;
+            border-radius: 10px;
+            font-size: 10px;
+            font-family: 'Courier New', Courier, monospace;
+            height:40px;
+            border-style: none;
+            background-color: black;
+            color: white;
+        }
+        .pro-main-con .btn_code button:active{
+            background-color: white;
+            color: black;
+            border: 2px solid black;
+        }
+
+        .photo-con {
+            background-color: transparent;
+            position: relative;
+            top: -45rem;
+            left:1.3rem;
+        }
+        .photo-con div:nth-child(1){
+            width:10rem;
+            position: relative;
+            left:6rem;
+        } .photo-con div:nth-child(2){
+            width:10rem;
+            height:7rem;
+            position: absolute;
+            left:1rem;
+            top:9.5rem;
+        }.photo-con div:nth-child(3){
+            width:10rem;
+            height:7rem;
+            position: absolute;
+            left:11.3rem;
+            top:9.5rem;
+        }.photo-con div:nth-child(4){
+            width:11rem;
+            height:13rem;
+            position: absolute;
+            left:0.5rem;
+            top:17rem;
+        }.photo-con div:nth-child(5){
+            width:9rem;
+            height:13rem;
+            position: absolute;
+            left:12rem;
+            top:17rem;
+        }
+        .photo-con div:nth-child(6){
+            width:20rem;
+            height:18rem;
+            position: absolute;
+            left:0.9rem;
+            top:31rem;
+        }
+
+        .insta-title {
+            background-color: transparent;
+            position: relative;
+            top:-83rem;
+            left:1.2rem;
+          
+            
+        }
+        .insta-id{
+            background-color: transparent;
+            position: relative;
+            left:5px;
+            
+        }
+        .insta-title .insta-id h1{
+            position:relative;
+            left:3px;
+        }
+        .insta-title .insta-id img{
+            position: relative;
+            top: 3rem;
+            left:0rem;
+        }
+        .insta-title .insta-link {
+            position: relative;
+            left: 4.4rem;
+        }
+        .about{
+            background-color:transparent;
+            height:50rem;
+            width:95%;
+            position: relative;
+            top:70rem;
+            left: 0.5rem;
+
+        }
+        .about h1{
+            position:absolute;
+            left:11em;
+        }
+         .about-con{
+            position: absolute;
+            left:7rem;
+            top:7rem;
+            z-index:2;
+        }
+        .blackscreen-2{
+            background-color: rgba(13, 13, 13, 0.3);
+            z-index: 1;
+        }
+        
+        .about-img{
+            position: relative;
+            left:90px;
+        }
+        .about-main h1:nth-child(1){
+            position: absolute;
+            left:5rem;
+            font-size: 14px;
+            top:13rem;
+
+        }
+        .about-main h1:nth-child(2){
+            position:absolute;
+            left:90px;
+            top: 15rem;
+
+        }
+       .about-btn button:nth-child(1){
+            position:absolute;
+            top:-40px;
+            left:10px;
+        }
+        .about-btn button:nth-child(2){
+            position:absolute;
+            top:10px;
+            left:10rem;
+        }
+        
+        .contact-con{
+            background-color: transparent;
+            position: relative;
+            top:70rem;
+            height: 60rem;
+        }
+       .form-con{
+         background-color: rgb(33, 33, 33,.4);
+         position: relative;
+         top: 5rem;
+
+        }
+        .contact-con .form-con input{
+            width:285px;
+            position: relative;
+            left: 0.5rem;
+        }
+        .contact-con .form-con textarea{
+            max-width: 300px;
+            min-width: 300px;
+        }
+        .contact-con .form-con button{
+            width: 200px;
+            position: relative;
+            left: 4.5rem;
+            background-color: rgb(191, 250, 250);
+            color: rgb(0, 0, 0);
+        }
+        .link{
+            background-color: transparent;
+            position: relative;
+            left: 3.5rem;
+        }
+
+}
